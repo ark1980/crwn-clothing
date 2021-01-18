@@ -9,7 +9,7 @@ export default function MenuItem({ title, imgUrl, size }) {
       className='background-image'
       style={{backgroundImage: `url(${imgUrl})` }} />
         <div className='content'>
-          <div className='title'>{title.toUpperCase()}</div>
+          <h1 className='title'>{title.toUpperCase()}</h1>
           <span className='subtitle'>SHOP NOW</span>
         </div>
       </div>
